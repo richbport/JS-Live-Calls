@@ -1,7 +1,11 @@
-let basket = ['soccer', 'basketball', 'tennis', 'football', 'volleyball']
+// let ballPrices = [20, 25, 5, 15, 30]
 
-let goldenBalls = basket.map((ball) => {
-      return 'golden ' + ball
+// let totalPrice = ballPrices.reduce((totalPrice) => {
+//       return 'golden ' + ball
+// })
+
+let ballPrices = [20, 25, 5, 15, 30]
+
+let totalPrice = ballPrices.reduce((total, price) => {
+    return total + price
 })
-
-console.log(goldenBalls);
