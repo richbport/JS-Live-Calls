@@ -1,5 +1,7 @@
 let basket = ['soccer', 'basketball', 'tennis', 'football', 'volleyball']
 
-basket.push('golf')
+let goldenBalls = basket.map((ball) => {
+      return 'golden ' + ball
+})
 
-console.log(basket)
+console.log(goldenBalls);
