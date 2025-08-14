@@ -1,3 +1,5 @@
-let balls = ['soccer', 'basketball', 'tennis', 'football', 'volleyball']
+let basket = ['soccer', 'basketball', 'tennis', 'football', 'volleyball']
 
-console.log(balls[2])
+basket.push('golf')
+
+console.log(basket)
