@@ -18,8 +18,8 @@
 
     let basket = ['soccer', 'basketball', 'tennis', 'football', 'volleyball',]
     
-    console.log(basket.length)
-
     let longNameBalls = basket.filter((ball) => {
-        return ball.length
+        return ball.length >= 6
     })
+
+    console.log(longNameBalls)
